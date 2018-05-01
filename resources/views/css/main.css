@@ -1,0 +1,186 @@
+#btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+label {
+    display: inline-block;
+    max-width:500px;
+}
+
+.nowrap {
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+#openWaitlist {
+    color: #343a40;
+    /*background: #ced4da;*/
+    border: 2px solid #61676d;
+    padding: 0 .5em;
+    height: 28px;
+    top: 0.15em;
+}
+
+#levelFilter {
+    color: #343a40;
+    /*background: #ced4da;*/
+    border: 2px solid #61676d;
+    padding: 0 .5em;
+    height: 28px;
+    top: 0.15em;
+}
+
+#termFilter {
+    color: #343a40;
+    /*background: #ced4da;*/
+    border: 2px solid #61676d;
+    padding: 0 .5em;
+    height: 28px;
+    top: 0.15em;
+}
+
+#resultTable, #reviewerAsgnmtTable {
+    table-layout: auto;
+}
+
+#reviewersTable {
+    table-layout: fixed;
+}
+
+article.hiddenHelp {
+    display: none;
+    float: none;
+    width: auto;
+    margin-bottom: inherit;
+}
+article.card .hiddenHelp {
+    bottom: 5px;
+}
+
+td {
+    vertical-align: top;
+}
+
+td > div.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    cursor: pointer;
+    *cursor: hand;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.dataTables_filter {
+    float: left;
+    margin-left: 1em;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+table.dataTable thead .sorting {
+    background-image: url('../images/sort_both.png');
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url('../images/sort_asc.png');
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url('../images/sort_desc.png');
+}
+
+table.dataTable thead .sorting_asc_disabled {
+    background-image: url('../images/sort_asc_disabled.png');
+}
+
+table.dataTable thead .sorting_desc_disabled {
+    background-image: url('../images/sort_desc_disabled.png');
+}
+
+.dtr-title, .dtr-data {
+    color: #343a40;
+}
+
+.subContent {
+    display: none;
+    word-wrap: break-word;
+}
+
+a.showMore {
+    color: #0254EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.darConsent {
+    float: right;
+    width: 100%;
+}
+
+.justification textarea {
+    width: 100%;
+}
+
+#tabs {
+    display: none;
+}
+
+@media (min-width: 769px) {
+
+    #tabs {
+        display: inline-block;
+    }
+
+    .darConsent {
+        width: 30%;
+    }
+
+    .justification textarea {
+        width: auto;
+    }
+
+}
+
+/**
+    Multiselect CSS change
+ */
+.ms-choice {
+    background-color: white;
+    margin-bottom: 0px !important;
+}
+.ms-choice > span {
+    top: -2px;
+}
+.ms-choice > span.placeholder {
+    top: 0;
+}
