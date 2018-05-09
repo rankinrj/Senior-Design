@@ -115,7 +115,7 @@
             display:  none ;
         }</style>
 
-	<link href="css/universal.css" rel="stylesheet">
+	<link href="css/universalmiami.css" rel="stylesheet">
 	<link href="css/multiple-select.css" rel="stylesheet">
     	<link href="css/jquery-ui.css" rel="stylesheet">
     	<link href="css/time-slider.css" rel="stylesheet">
@@ -346,7 +346,7 @@
 	</div>
 	<!--Add url to program search here-->
 <?php if(isset($link)): ?>
-	<p>You can look up programs in your chosen region and term at <a href="<?php echo $link?>"><?php echo $link?></a></p>
+	<p>You can look up programs in your chosen region and term at <a href="<?php echo $link?>">here</a></p>
 <?php endif ?>
 	</main>
 </div>

@@ -120,7 +120,7 @@ th, td{
 </div>
 
 <div id="result">
-        <form method='get' action="crud.blade.php">
+        <form method='post' action="">
 		Region <select name="region">
 			<option value="Asia">Asia</option>
 			<option value="Europe">Europe</option>
