@@ -7,6 +7,7 @@ Run the composer with composer install.
 Allow laravel to make changes from the apache config files.
 Create the database using mysql and the provided creation.txt
 If you have changed the names of any components of the database you will have to make changes to the .env file and possible the database config file as well.
+Run php artisan serve.
 
 Routes:
 All routes are at appp/Http/routes.php
