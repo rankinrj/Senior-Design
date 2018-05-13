@@ -1,5 +1,4 @@
-This is the 2017-2018 Study Abroad Calculator senior design project frrom Miami University.
-
+This is the 2017-2018 Study Abroad Calculator senior design project frrom Miami University. This project is also stored at https://github.com/rankinrj1/Senior-Design.git
 
 Setup: (note the directory may need to be renamed to quickstart)
 Clone the git repository from https://github.com/rankinrj1/Senior-Design.git.
