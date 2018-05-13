@@ -1,0 +1,68 @@
+CREATE DATABASE studycost;
+use studycost;
+Create table programs (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+region VARCHAR(30) NOT NULL,
+length VARCHAR(30) NOT NULL,
+progfee int NOT NULL,
+passport int NOT NULL,
+airfare int NOT NULL,
+food int NOT NULL,
+housing int NOT NULL,
+insurance int NOT NULL,
+transport int NOT NULL,
+personal int NOT NULL
+);
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Asia', 'long', 10675, 98, 1300,
+1200, 2950, 235, 425, 1550)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Europe', 'long', 10280, 230, 1300,
+1750, 5000, 230, 425, 2050)
+;
+insert into programs (region, length, progfee,passport,airfare, food, housing, insurance, transport, personal) Values('Latin America', 'long', 9060, 205, 1200, 1200, 2685, 230, 262, 1400);
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Australia', 'long', 12777, 435, 1800,
+2050, 4825, 230, 540, 2350)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Asia','short',5612,140,1549,
+600,1170,230,143,525)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Europe','short',4899,230,1040,
+800,1645,230,186,442)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Latin America','short',4190,230,1350,
+600,1100,230,126,475)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Australia','short',5002,15,1650,
+1025,1995,230,120,633)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Luxemberg-MUDEC','long',14958,230,1300,750,0,230,425,2050)
+;
+insert into programs (region, length,
+progfee,passport,airfare, food, housing,
+insurance, transport, personal)
+Values('Luxemberg-MUDEC','short',0,230,1040,300,0,230,186,442)
+;
